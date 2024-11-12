@@ -1,5 +1,4 @@
 
-
 body, html {
     margin: 0;
     overflow: hidden;
@@ -20,8 +19,8 @@ body, html {
 
 #bird {
     position: absolute;
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     background-color: yellow;
     border-radius: 50%;
     top: 40%;
@@ -30,7 +29,7 @@ body, html {
 
 .pipe {
     position: absolute;
-    width: 40px;
+    width: 30px;
     background-color: black;
     top: 0;
 }
