@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to create a pipe
     function createPipe() {
         const pipeGap = 150;
-        const pipeWidth = 60;
+        const pipeWidth = 50;
         const pipeTopHeight = Math.floor(Math.random() * (gameArea.clientHeight - pipeGap));
 
         // Create top pipe
