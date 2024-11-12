@@ -1,11 +1,11 @@
 
-
 document.addEventListener('DOMContentLoaded', () => {
-    const bird = document.getElementById('bird');
     const gameArea = document.getElementById('gameArea');
+    const bird = document.getElementById('bird');
     const scoreDisplay = document.getElementById('score');
     const restartBtn = document.getElementById('restartBtn');
     let birdY = gameArea.clientHeight / 2;
+    
     let birdVelocity = 0;
     const gravity = 0.6;
     let gameSpeed = 3;
